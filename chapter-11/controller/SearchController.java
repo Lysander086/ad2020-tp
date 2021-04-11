@@ -61,7 +61,7 @@ public class SearchController {
     @SuppressWarnings("all")
     @IgnoreResponseAdvice
     @PostMapping("/getAdPlansByRibbon")
-    public CommonResponse<List<AdPlan>> getAdPlansByRebbon(
+    public CommonResponse<List<AdPlan>> getAdPlansByRibbon(
             @RequestBody AdPlanGetRequest request
     ) {
         log.info("ad-search: getAdPlansByRibbon -> {}",
