@@ -39,7 +39,7 @@ public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {
 
         log.info("UnitDistrictIndex, before add: {}", unitDistrictMap);
 
-        Set<Long> unitIds = CommonUtils.getorCreate(
+        Set<Long> unitIds = CommonUtils.getOrCreate(
                 key, districtUnitMap,
                 ConcurrentSkipListSet::new
         );
@@ -47,7 +47,7 @@ public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {
 
         for (Long unitId : value) {
 
-            Set<String> districts = CommonUtils.getorCreate(
+            Set<String> districts = CommonUtils.getOrCreate(
                     unitId, unitDistrictMap,
                     ConcurrentSkipListSet::new
             );
@@ -68,7 +68,7 @@ public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {
 
         log.info("UnitDistrictIndex, before delete: {}", unitDistrictMap);
 
-        Set<Long> unitIds = CommonUtils.getorCreate(
+        Set<Long> unitIds = CommonUtils.getOrCreate(
                 key, districtUnitMap,
                 ConcurrentSkipListSet::new
         );
@@ -76,7 +76,7 @@ public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {
 
         for (Long unitId : value) {
 
-            Set<String> districts = CommonUtils.getorCreate(
+            Set<String> districts = CommonUtils.getOrCreate(
                     unitId, unitDistrictMap,
                     ConcurrentSkipListSet::new
             );

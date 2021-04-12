@@ -49,14 +49,14 @@ public class UnitKeywordIndex implements IndexAware<String, Set<Long>> {
 
         log.info("UnitKeywordIndex, before add: {}", unitKeywordMap);
 
-        Set<Long> unitIdSet = CommonUtils.getorCreate(
+        Set<Long> unitIdSet = CommonUtils.getOrCreate(
                 key, keywordUnitMap,
                 ConcurrentSkipListSet::new
         );
         unitIdSet.addAll(value);
 
         for (Long unitId : value) {
-            Set<String> keywordSet = CommonUtils.getorCreate(
+            Set<String> keywordSet = CommonUtils.getOrCreate(
                     unitId, unitKeywordMap,
                     ConcurrentSkipListSet::new
             );
@@ -77,7 +77,7 @@ public class UnitKeywordIndex implements IndexAware<String, Set<Long>> {
 
         log.info("UnitKeywordIndex, before delete: {}", unitKeywordMap);
 
-        Set<Long> unitIds = CommonUtils.getorCreate(
+        Set<Long> unitIds = CommonUtils.getOrCreate(
                 key, keywordUnitMap,
                 ConcurrentSkipListSet::new
         );
@@ -85,7 +85,7 @@ public class UnitKeywordIndex implements IndexAware<String, Set<Long>> {
 
         for (Long unitId : value) {
 
-            Set<String> keywordSet = CommonUtils.getorCreate(
+            Set<String> keywordSet = CommonUtils.getOrCreate(
                     unitId, unitKeywordMap,
                     ConcurrentSkipListSet::new
             );
