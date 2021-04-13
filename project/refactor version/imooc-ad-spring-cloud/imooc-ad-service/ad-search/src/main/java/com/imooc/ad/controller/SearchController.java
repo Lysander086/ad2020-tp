@@ -57,7 +57,7 @@ public class SearchController {
         return sponsorClient.getAdPlans(request);
     }
 
-    @SuppressWarnings("all")
+    
     @IgnoreResponseAdvice
     @PostMapping("/getAdPlansByRibbon")
     public CommonResponse<List<AdPlan>> getAdPlansByRibbon(

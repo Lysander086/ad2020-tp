@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
 
     @Override
-    @SuppressWarnings("all")
+    
     public boolean supports(MethodParameter methodParameter,
                             Class<? extends HttpMessageConverter<?>> aClass) {
 
@@ -39,7 +39,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
 
     @Nullable
     @Override
-    @SuppressWarnings("all")
+    
     public Object beforeBodyWrite(@Nullable Object o,
                                   MethodParameter methodParameter,
                                   MediaType mediaType,

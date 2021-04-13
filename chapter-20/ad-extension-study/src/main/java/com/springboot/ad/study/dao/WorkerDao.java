@@ -15,7 +15,7 @@ import java.util.Map;
  * <h1>Worker Dao 接口定义</h1>
  * 
  */
-@SuppressWarnings("all")
+
 public interface WorkerDao extends JpaRepository<Worker, Long> {
 
     /**

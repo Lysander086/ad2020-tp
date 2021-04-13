@@ -31,7 +31,7 @@ public class DataTable implements ApplicationContextAware, PriorityOrdered {
         return PriorityOrdered.HIGHEST_PRECEDENCE;
     }
 
-    @SuppressWarnings("all")
+    
     public static <T> T of(Class<T> clazz) {
 
         T instance = (T) dataTableMap.get(clazz);
@@ -43,12 +43,12 @@ public class DataTable implements ApplicationContextAware, PriorityOrdered {
         return (T) dataTableMap.get(clazz);
     }
 
-    @SuppressWarnings("all")
+    
     private static <T> T bean(String beanName) {
         return (T) applicationContext.getBean(beanName);
     }
 
-    @SuppressWarnings("all")
+    
     private static <T> T bean(Class clazz) {
         return (T) applicationContext.getBean(clazz);
     }

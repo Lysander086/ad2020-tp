@@ -25,7 +25,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
      * @return false: 不需要处理; true: 需要处理
      * */
     @Override
-    @SuppressWarnings("all")
+    
     public boolean supports(MethodParameter methodParameter,
                             Class<? extends HttpMessageConverter<?>> aClass) {
 
@@ -53,7 +53,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
      * */
     @Nullable
     @Override
-    @SuppressWarnings("all")
+    
     public Object beforeBodyWrite(@Nullable Object o,
                                   MethodParameter methodParameter,
                                   MediaType mediaType,

@@ -166,7 +166,7 @@ public class MyConsumer {
         }
     }
 
-    @SuppressWarnings("all")
+    
     private static void mixSyncAndAsyncCommit() {
 
         properties.put("auto.commit.offset", false);
