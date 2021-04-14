@@ -124,7 +124,6 @@ public class DumpDataService {
                 writer.write(JSON.toJSONString(planTable));
                 writer.newLine();
             }
-            writer.close();
         } catch (IOException ex) {
             log.error("dumpAdPlanTable error");
         }
