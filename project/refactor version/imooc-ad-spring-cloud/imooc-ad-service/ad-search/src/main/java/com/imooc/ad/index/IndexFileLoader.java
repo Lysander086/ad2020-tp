@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 
+ * 根据数据表导出的文件, 随后读取文件, 加载索引
  */
 @Component
 @DependsOn("dataTable")
