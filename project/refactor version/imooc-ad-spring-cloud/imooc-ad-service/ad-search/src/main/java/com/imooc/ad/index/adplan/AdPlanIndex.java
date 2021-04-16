@@ -7,9 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * 
- */
+
 @Slf4j
 @Component
 public class AdPlanIndex implements IndexAware<Long, AdPlanObject> {

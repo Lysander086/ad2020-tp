@@ -12,9 +12,7 @@ import com.imooc.ad.vo.AdUnitResponse;
 import com.imooc.ad.vo.CreativeUnitRequest;
 import com.imooc.ad.vo.CreativeUnitResponse;
 
-/**
- * 
- */
+
 public interface IAdUnitService {
 
     AdUnitResponse createUnit(AdUnitRequest request) throws AdException;

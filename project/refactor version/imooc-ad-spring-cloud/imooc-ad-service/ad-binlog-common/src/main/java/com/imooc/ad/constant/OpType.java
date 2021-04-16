@@ -2,9 +2,7 @@ package com.imooc.ad.constant;
 
 import com.github.shyiko.mysql.binlog.event.EventType;
 
-/**
- * 
- */
+
 public enum OpType {
 
     ADD,

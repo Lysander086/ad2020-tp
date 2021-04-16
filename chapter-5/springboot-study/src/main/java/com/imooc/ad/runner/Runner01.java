@@ -4,9 +4,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-/**
- * 
- */
+
 @Order(value = 1)
 @Component
 public class Runner01 implements CommandLineRunner {

@@ -12,9 +12,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.Properties;
 
-/**
- * 
- */
+
 public class MyConsumer {
 
     private static KafkaConsumer<String, String> consumer;

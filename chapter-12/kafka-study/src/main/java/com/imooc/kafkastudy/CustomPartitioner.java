@@ -9,9 +9,7 @@ import org.apache.kafka.common.utils.Utils;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 
- */
+
 public class CustomPartitioner implements Partitioner {
 
     @Override

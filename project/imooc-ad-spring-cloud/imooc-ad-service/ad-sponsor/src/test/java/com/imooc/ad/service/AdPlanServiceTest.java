@@ -11,9 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Collections;
 
-/**
- * 
- */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = {Application.class},
         webEnvironment = SpringBootTest.WebEnvironment.NONE)

@@ -12,9 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * 
- */
+
 @Slf4j
 @Component
 public class CreativeIndex implements IndexAware<Long, CreativeObject> {

@@ -6,9 +6,7 @@ import com.github.shyiko.mysql.binlog.event.EventData;
 import com.github.shyiko.mysql.binlog.event.UpdateRowsEventData;
 import com.github.shyiko.mysql.binlog.event.WriteRowsEventData;
 
-/**
- * 
- */
+
 public class BinlogServiceTest {
 
 //    Write---------------

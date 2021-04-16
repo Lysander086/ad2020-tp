@@ -21,9 +21,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * 
- */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = {Application.class},
         webEnvironment = SpringBootTest.WebEnvironment.NONE)

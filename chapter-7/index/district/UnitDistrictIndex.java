@@ -14,9 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Collectors;
 
-/**
- * 
- */
+
 @Slf4j
 @Component
 public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {

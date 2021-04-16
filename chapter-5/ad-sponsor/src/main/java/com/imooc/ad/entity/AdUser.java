@@ -15,9 +15,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import java.util.Date;
 
-/**
- * 
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

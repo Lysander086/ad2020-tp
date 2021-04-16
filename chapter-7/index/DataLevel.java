@@ -2,9 +2,7 @@ package com.imooc.ad.index;
 
 import lombok.Getter;
 
-/**
- * 
- */
+
 @Getter
 public enum DataLevel {
 

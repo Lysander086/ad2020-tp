@@ -14,9 +14,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * 
- */
+
 @Slf4j
 @Component
 public class AdUnitIndex implements IndexAware<Long, AdUnitObject> {

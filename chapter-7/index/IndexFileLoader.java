@@ -22,9 +22,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * 
- */
+
 @Component
 @DependsOn("dataTable")
 public class IndexFileLoader {

@@ -18,9 +18,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
-/**
- * 
- */
+
 @Slf4j
 @RestController
 public class SearchController {

@@ -3,9 +3,7 @@ package com.imooc.ad.constant;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 
- */
+
 public class Constant {
 
     private static final String DB_NAME = "imooc_ad_data";

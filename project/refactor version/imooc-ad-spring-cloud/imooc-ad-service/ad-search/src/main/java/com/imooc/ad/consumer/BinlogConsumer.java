@@ -11,9 +11,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
-/**
- * 
- */
+
 @Slf4j
 @Component
 public class BinlogConsumer {

@@ -12,9 +12,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
-/**
- * 
- */
+
 @Component("kafkaSender")
 public class KafkaSender implements ISender {
 

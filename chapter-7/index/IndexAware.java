@@ -1,8 +1,6 @@
 package com.imooc.ad.index;
 
-/**
- * 
- */
+
 public interface IndexAware<K, V> {
 
     V get(K key);

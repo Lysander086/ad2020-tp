@@ -17,9 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * 
- */
+
 @Slf4j
 @RestController
 public class AdPlanOPController {

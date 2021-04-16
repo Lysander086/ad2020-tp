@@ -1,8 +1,6 @@
 package com.imooc.ad.constant;
 
-/**
- * 
- */
+
 public class Constants {
 
     public static class ErrorMsg {

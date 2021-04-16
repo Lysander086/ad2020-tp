@@ -5,9 +5,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-/**
- * 
- */
+
 @Order(value = 2)
 @Component
 public class Runner02 implements ApplicationRunner {

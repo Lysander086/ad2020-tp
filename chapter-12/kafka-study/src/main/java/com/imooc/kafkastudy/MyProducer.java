@@ -8,9 +8,7 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import java.lang.reflect.Executable;
 import java.util.Properties;
 
-/**
- * 
- */
+
 public class MyProducer {
 
     private static KafkaProducer<String, String> producer;
