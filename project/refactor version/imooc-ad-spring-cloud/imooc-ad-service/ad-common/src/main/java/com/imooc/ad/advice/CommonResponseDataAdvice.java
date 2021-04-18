@@ -21,7 +21,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
 
     /**
-     * <h2>判断是否需要对响应进行处理</h2>
+     * 判断是否需要对响应进行处理
      * @return false: 不需要处理; true: 需要处理
      * */
     @Override
@@ -48,7 +48,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
     }
 
     /**
-     * <h2>响应返回之前的处理</h2>
+     * 响应返回之前的处理
      * @param o 响应对象
      * */
     @Nullable

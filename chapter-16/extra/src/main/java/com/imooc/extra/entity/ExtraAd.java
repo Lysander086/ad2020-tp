@@ -33,7 +33,7 @@ public class ExtraAd {
     private String name;
 
     /**
-     * <h2>提供 name 的构造函数</h2>
+     * 提供 name 的构造函数
      * */
     public ExtraAd(String name) {
         this.name = name;

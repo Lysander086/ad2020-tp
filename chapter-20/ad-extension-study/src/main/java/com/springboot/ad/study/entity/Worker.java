@@ -75,7 +75,7 @@ public class Worker implements Serializable {
     private String extraInfo;
 
     /**
-     * <h2>构造函数</h2>
+     * 构造函数
      * */
     public Worker(String name, Long salary) {
         this.name = name;

@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class SpringbootStudyApplication {
 
     /**
-     * <h2>SpringBoot 应用入口类</h2>
+     * SpringBoot 应用入口类
      * */
 	public static void main(String[] args) {
 

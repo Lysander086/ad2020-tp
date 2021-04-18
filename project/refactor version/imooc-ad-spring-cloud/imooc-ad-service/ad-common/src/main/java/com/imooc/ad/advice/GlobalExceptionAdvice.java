@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 public class GlobalExceptionAdvice {
 
     /**
-     * <h2>对 AdException 进行统一处理</h2>
+     * 对 AdException 进行统一处理
      * ExceptionHandler: 可以对指定的异常进行拦截
      * 优化: 定义多种类异常, 并实现对应的异常处理. 例如: 推广单元的操作出现异常, 抛出 AdUnitException;
      *  Binlog 解析异常, 抛出 BinlogException
